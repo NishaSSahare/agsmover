@@ -6,23 +6,21 @@
  a{ 
     text-decoration: none;
     } 
- .text-justify{
+.text-justify{
     text-align: justify;
  }
  /* tophead section strat */
 header .tophead{
     height: 28px;
     background: #343434;
-    width:100%;
-}
+    }
  header .tophead .leftgroup ul li{ 
     margin: 0px 20px;
  } 
  header .tophead ul li a{ 
     color:#fff;
-    font-size: 12px;
-    margin: 0px 20px;
- } 
+    font-size: 13px;
+} 
 header .tophead ul li a.active{
     width: auto;
     height: auto;
@@ -32,7 +30,7 @@ header .tophead ul li a.active{
     text-align: center;
     position: relative;
     background-color: #fff; 
-   }
+    }
 header .tophead .leftgroup ul li a:hover{
     text-decoration: underline;
 }
@@ -48,21 +46,30 @@ header .tophead .leftgroup ul li a:hover{
     border-top: 0px solid transparent;
  } 
 header .tophead .rightgroup ul li {
-    margin: 0px;
-}
+    margin: 0px 15px;
+ }
 /* header section end */
 
-/* navbar section start */
- .dropdown{ 
-        position: relative;
-          } 
-header .dropdown-menu .dropdown-item {
-        display: block; 
-        position: relative;  
-}
+
+/* navbar Section Start */
+.dropdown{ 
+      position: relative;  
+    display: block;
+    } 
+.dropdown .dropdown:hover .dropdown-menu{ 
+  display: block;
+  position: relative; 
+ } 
+ header .dropdown-item { 
+    color:#fff;
+     padding: 5px 10px;
+    height: inherit !important; 
+ } 
 .min{
 background-color: #b00000;
 }
+/* Navbar Section End */
+
 /* slider section start */
 .carousel-inner .carousel-item{
     height: 500px;
@@ -100,6 +107,9 @@ background: #fff;
 }
 .interbox p{
     font-size: 17px;
+    color:#333;
+    font-weight: normal;
+    font-family: sans-serif;
 }
 .interbox a {
     color: #b00000;
@@ -111,3 +121,157 @@ h3{
     font-size: 20px;
 }
 /* international removal section end */
+
+/* Individual Corporation section start */
+.imgbox{
+    overflow: hidden;
+}
+.imgbox img:hover{
+    transition: 1s all;
+    transform: scale(1.1);
+}
+/* Individual Corporation section end */
+
+/* Domestic Section Start */
+.domestic{
+    background: #34313a;
+}
+.domestic img:hover{
+    transform: scale(1.1);
+}
+.ghost a{
+    color: #b00000;
+    margin: auto;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #b00000;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.ghost a:hover{
+     background-color: #b00000; 
+    color: #fff;
+}
+.standard a {
+    margin: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #b00000;
+    color: #fff;
+    padding: 10px 20px;  
+    font-weight: 600; 
+}
+.menu a{
+    color: #b00000;
+    margin: auto;
+     font-size: 14px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #b00000;
+    text-align: center;  
+     font-weight: 600; 
+     padding: 10px 20px; 
+}
+.menu a:hover{
+    background-color: #b00000;
+    color:#fff;
+}
+.vasu a{
+    margin: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #b00000;
+    color: #fff;
+    padding: 10px 20px; 
+   text-align: center;  
+    font-weight: 600; 
+}
+h5{
+    font-size: 18px;
+}
+p{
+    font-size: 15px;
+}
+/* Domestic Section End */
+
+.suda a{
+    margin: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #b00000;
+    color: #fff;
+    padding: 8px 30px; 
+    font-weight: 600;
+}
+
+/* FOOTER SECTION START */
+.resttop{
+    background-color:   #343434;
+}
+.cmd{
+    color: #878191;
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+}
+footer .cmd ul li a{
+    color: #878191;
+}
+footer .cmd ul li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.yyy a{
+   color: #878191; 
+    font-size: 14px;
+    text-align: left;
+    font-weight: 500;
+}
+footer .yyy ul li{ 
+    color: #878191;
+    color: #fff; 
+ } 
+footer .yyy ul li a:hover{
+    text-decoration: underline;
+     color: #fff; 
+}
+ .site-info { 
+     position: relative; 
+     background-color: #29282d;
+    width: 100%;
+    padding-left:5px; 
+    height: auto !important; 
+    color: #878191;
+    }
+ .site-info-links a {
+    font-size: 14px !important;
+    color: #878191 !important;
+     justify-content: flex-end !important; 
+    }
+  
+/* FOOTER SECTION END */
+
+
+
+/* Media Query Section start */
+ @media only screen and (max-width: 768px){ 
+
+ } 
+@media only screen and (max-width: 1023px){
+header .tophead{
+  display: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 13px !important;
+}
+@media only screen and (min-width:768px) {
+    .carousel-inner .carousel-item .carousel-caption{
+        bottom: 9rem !important;
+    }
+    .carousel-indicators{
+        bottom: 9rem !important;
+    }
+}
+}
+/* Media Query Section end */
