@@ -31,15 +31,23 @@
                 <li><a href=""><i class="fa-solid fa-handshake"></i> Careers</a></li>
                 <li><a href=""><i class="fa-regular fa-credit-card"></i> Payment</a></li>
                 <li><a href=""><i class="fa-regular fa-user"></i> Log in</a></li>
-                <select id="country" name="country">
-                  <option value="volvo">Francais</option>
-                  <option value="saab">Deutsch</option>
-                  <option value="fiat">Dutch</option>
-                  <option value="audi">Dutch</option>
-                </select>
+                <li class="nav-item dropdown">
+                  <a class="nav-link  text-light dropdown-toggle" href="javascript:void()" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="./assest/img/en.png" alt="">  English
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">
+                      <img src="./assest/img/fr.png" alt=""> Francais</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <img src="./assest/img/de.png" alt=""> Deutsch </a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <img src="./assest/img/nl.png" alt=""> Deutsch  </a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <img src="./assest/img/nl.png" alt=""> Deutsch </a></li>
+                    </ul>
                 </li>
-              </ul>
-            </div>
+              </div>
           </div>
         </div>
       </div>
@@ -78,9 +86,9 @@
             <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               CONTACT
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">General enquiries</a></li>
-              <li><a class="dropdown-item" href="#">Your satisfaction</a></li>
+            <ul class="dropdown-menu mt-4">
+              <li><a class="dropdown-item  text-light px-5" href="#">General enquiries</a></li>
+              <li><a class="dropdown-item text-light px-5" href="#">Your satisfaction</a></li>
             </ul>
         </ul>
         <form class="d-flex" role="search">
@@ -104,23 +112,47 @@
       <div class="carousel-item active" data-bs-interval="3000">
         <img src="./assest/img/couple-smile-tablet-boxes-1.jpg" class="d-block w-100" alt="couple-smile-tablet-boxes-1">
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h2 class="text-light fw-5">Our unique network</h2>
+          <p class="text-light">To better serve you, we offer seamless service experiences worldwide. Our network covers 146 locations across 97 countries.</p>
+          <div class=" d-flex justify-content-center mt-3">
+            <div class="riya text-center mt-5 mb-5">
+              <a href="">find a branch <i class="fa-solid fa-chevron-right px-3"></i></a>
+            </div>
+            <div class="diya text-center ms-3 mt-5">
+              <a href="javascript:void()">get a quote<i class="fa-solid fa-chevron-right px-2"></i></a>
+            </div>
+          </div> 
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="3000">
         <img src="./assest/img/ladies-smiling-consultant-client-1.jpg" class="d-block w-100"
           alt="ladies-smiling-consultant-client-1">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <h2 class="text-light">The excellence of our staff</h2>
+         <p class="text-light">Packing is our unparalleled expertise. AGS packers are trained on specific techniques to ensure all your items arrive in pristine condition.</p>
+         <div class=" d-flex justify-content-center">
+          <div class="riya text-center mt-5 mb-5">
+            <a href="">find a branch <i class="fa-solid fa-chevron-right px-3"></i></a>
+          </div>
+          <div class="diya text-center ms-3 mt-5">
+            <a href="javascript:void()">get a quote<i class="fa-solid fa-chevron-right px-2"></i></a>
+          </div>
+        </div> 
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="3000">
         <img src="./assest/img/man-children-dog-toys.jpg" class="d-block w-100" alt="man-children-dog-toys">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+      <h2 class="text-light">Get a quote with a virtual visit</h2>
+         <p class="text-light">Book a virtual visit when you request a removal quote. Our newly developed application enables our removal experts to assist you remotely with a virtual survey at home, free of charge.</p>
+         <div class=" d-flex justify-content-center">
+          <div class="riya text-center mt-5 mb-5">
+            <a href="">find a branch <i class="fa-solid fa-chevron-right px-3"></i></a>
+          </div>
+          <div class="diya text-center ms-3 mt-5">
+            <a href="javascript:void()">get a quote<i class="fa-solid fa-chevron-right px-2"></i></a>
+          </div>
+        </div> 
         </div>
       </div>
     </div>
@@ -140,7 +172,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10 interbox d-block mx-auto text-center shadow">
-        <h1 class="text-danger pt-5 pb-2 fw-bold">INTERNATIONAL REMOVALS & STORAGE</h1>
+        <h2 class="text-danger pt-5 pb-2 fw-bold">INTERNATIONAL REMOVALS & STORAGE</h2>
         <p class="fw-bold mx-5">
           “Pioneer in the mobility industry, AGS International Movers, is now one of its global leaders, as a result of
           the innovative vision of its board for the last forty years”
@@ -163,7 +195,7 @@
               <div class="imgbox">
                 <img src="./assest/img/ags-movers-individual-move-1.jpg" alt="movers1" class="img-fluid">
               </div>
-              <p class="text-justify  pt-3">
+              <p class="text-justify pt-3">
                 <b>Let us help you prepare for a smooth and successful move.</b> Whether you are moving from Africa to
                 Asia or
                 from England to the USA, we accompany you from departure to arrival. Our global network and local
@@ -263,24 +295,24 @@
                 <div class="px-4">
                   <h4 class="fw-bold d-flex">Quality & Satisfaction</h4>
                   <p class="text-justify">
-                    We uphold a high standard of performance and adhere to strict terms and procedures to provide the best quality of services. Mr GoodMove, our dedicated customer care department, allows us to guarantee your complete satisfaction, by continuing to help you even when the move is finished.
+                    We uphold a high standard of performance and adhere to strict terms and procedures to provide the best quality of services.<a href="#">Mr GoodMove, our dedicated customer care department,</a> allows us to guarantee your complete satisfaction, by continuing to help you even when the move is finished.
                   </p>
                </div> 
               </div>
-               <div class="col-lg-2"></div>
+               <div class="col-lg-1"></div>
               <div class="col-lg-5 d-flex">
                 <div><img src="./assest/img/security-icon.png" alt="icon" width="130"></div>
                 <div class="ps-4">
                   <h4 class="fw-bold d-flex">Security & Reliability</h4>
-                  <p class="text-justify d-flex">
-                    The safety of your belongings is our top priority. No matter where you go, move with peace of mind with AGS. We adapt to any situation and build the solutions you are looking for. We advise and are committed to offer our clients competitive rates while maintaining the best quality standards and adhering to compliance policies.
+                  <p class="text-justify">
+                    <a href="#">The safety</a> of your belongings is our top priority. No matter where you go, move with peace of mind with AGS. We adapt to any situation and build the solutions you are looking for. We advise and are committed to offer our clients competitive rates while maintaining the best quality standards and adhering to compliance policies.
                   </p>
               </div>
               </div>
-              </div>
+              </div> 
            <div class="row mt-5"> 
               <div class="col-lg-5 d-flex">
-                <div><img src="./assest/img/quality-satisfaction-icon.png" alt="" width="130px"></div>
+                <div><img src="./assest/img/quality-satisfaction-icon.png" alt="" width="130"></div>
                 <div class="px-4">
                   <h4 class="fw-bold d-flex">Flexibility & Advice</h4>
                   <p class="text-justify">
@@ -291,13 +323,13 @@
                   </p>
                 </div>
               </div>
-              <div class="col-lg-2"></div>
+              <div class="col-lg-1"></div>
               <div class="col-lg-5 d-flex">
-                <div><img src="./assest/img/cutting-edge.png" alt="" width="130px"></div>
+                <div><img src="./assest/img/cutting-edge.png" alt="icon" width="130"></div>
                 <div class="ps-4">
                   <h4 class="fw-bold d-flex">Cutting-edge solutions</h4>
                   <p class="text-justify">
-                    Constantly innovating, AGS always thinks a step ahead, providing you with the smartest services solutions at
+                    Constantly innovating, AGS always thinks a step ahead, providing you with <a href="#">the smartest services solutions</a>at
                     the most competitive prices. We integrate technology in each of our core services (quotes, tracking,
                     deliveries…) to ease and facilitate all of our operations.
                   </p>
@@ -309,7 +341,7 @@
   <!-- client satisfaction section end-->
  
 <!-- world section start -->
-  <div class="world py-5" style="background: url(./assest/img/removals_bg.jpg);">
+  <div class="world py-5" style="background: url(./assest/img/removals_bg.jpg);background-size: cover;">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 d-lg-block mx-auto">
@@ -342,7 +374,7 @@
   <!-- world section end -->
 
   <!-- our worldwide network section start -->
-  <div class="worldwide py-3">
+  <div class="worldwide mt-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-10 d-lg-block mx-auto">
@@ -360,19 +392,20 @@
             </p>
             <p class="text-center">
               “In 2023 the AGS Group has <b>146</b> locations in <b>97 countries</b> and has one of the largest networks
-              in the international removals industry.
+              in the<a href="#" style="color:#b00000";> international removals industry.</a>
             </p>
           </div>
-         <div class="d-grid  gap-5 d-md-flex justify-content-md-start text-center">
-            <div class="menu d-grid d-md-flex text-center justify-content-md-end  mx-5">
-              <a href="javascript:void()" class="btn">find a branch<i class="fa-solid fa-chevron-right px-3"></i></a>
-            </div>
-            <div class="vasu d-grid d-md-flex gap-2 d-md-flex justify-content-ms-start">
-              <a href="javascript:void()">see all countries<i class="fa-solid fa-chevron-right px-3"></i></a>
+          <div class=" d-flex justify-content-center">
+            <div class="riya text-center mt-5">
+              <a href="">find a branch <i class="fa-solid fa-chevron-right px-3"></i></a>
             </div> 
-          </div> 
-        </div>
+            <div class="diya text-center ms-3 mt-5">
+              <a href="javascript:void()">see all countries<i class="fa-solid fa-chevron-right px-2"></i></a>
+            </div> 
+          </div>  
+         </div>
       </div>
+    </div>
     </div>
 <!-- our worldwide network section end -->
 
@@ -385,7 +418,7 @@
     <div class="col-md-6 col-lg-3 py-4">
       <img src="assest/img/movers-footer-logo.png " alt="footer_logo" width="150px">
       <div class="yyy">
-      <ul class="list-unstyled ">
+      <ul class="list-unstyled">
         <li><a href="javascript:void()"><i class="fa-regular fa-comment text-light mt-4 px-2"></i>Contact us</a></li>
      <li><a href="javascript:void()"><i class="fa-solid fa-handshake text-light mt-3 px-2"></i>Carrers</a></li>
       </ul>
@@ -429,35 +462,44 @@
       </div>
      </div>
     <div class="col-md-6 col-lg-3 mt-3">
-      <div class="cmd">
+      <div class="ddd">
         <h5 class="text-light p-1">Recent Post</h5>
         <ul class="list-unstyled text-justify">
-          <li><a href="javascript:void()">AGS Transports 260 Items of Cameroon’s Cultural Heritage to Paris</a></li>
-          <li><a href="javascript:void()">Top 5 Swiss Cities for British Expats to Live In</a></li>
-          <li><a href="javascript:void()">AGS Algeria becomes the 40th AGS branch to get FAIM certified</a></li>
+          <li><a href="javascript:void()" class="ddd">Moving to Oman from the UK:A Comprehencive Guide for Expacts</a></li>
+          <li><a href="javascript:void()" class="ddd"> AGS Algeria becomes the 40th AGS branch to get FAIM certified</a></li>
+          <li><a href="javascript:void()" class="ddd">top 5 Swiss Cities for British Expats to Live In</a></li>
          </ul>
          <div>
-          <img src="./assest/img/ags-global-compact-logo-en.png" alt="icon">
+          <img src="./assest/img/ags-global-compact-logo-en.png" alt="icon" style="max-width: 100%; height: auto">
          </div>
       </div>
     </div>
  </div> 
-</div> 
- </div> 
-</footer>
-<!-- footer section end -->
+</div>
+ </footer>
+ <!-- footer section end -->
 
 <!-- copyright section start -->
-  <div class="site-info"> 
-  <p class="float-left site-copyright mx-5">Copyright AGS @ 2023</p>
-  <div class="float-right site-info-links text-end"> 
-  <a href="#" class="me-3">Terms of use</a> /<a href="#" class="me-5">Privacy policy</a>        
-    </div>
-</div>
+  <div class="bg-dark">
+l<div class="container">
+    <div class="row">
+      <div class="d-flex justify-content-between">
+        <div class="leftgroup-a">
+          <ul class="list-unstyled d-flex">
+            <p>Copyright AGS @ 2023</p>
+            </ul>
+             </div>
+             <div class="leftgroup-a">
+              <ul class="list-unstyled d-flex">
+                <li><a href="">Terms of use</a>/<a href="#" class=" me-5">Privacy policy</a></a></li>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div> 
 <!-- copyright section end -->
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <script src="./assest/js/script.js"></script>
